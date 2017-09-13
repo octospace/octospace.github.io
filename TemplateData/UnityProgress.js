@@ -24,7 +24,7 @@ function UnityProgress(gameInstance, progress) {
   }
 }
 
-var gameInstance = UnityLoader.instantiate("gameContainer", "Build/octospace_cons.json", {
+var gameInstance = UnityLoader.instantiate("gameContainer", "Build/ultraOcto.json", {
   onProgress: UnityProgress,
   Module: {
     onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") }
